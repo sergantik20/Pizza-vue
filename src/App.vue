@@ -1,378 +1,20 @@
 <template>
-  <div class="tool">
-    <div class="heading">
-      <header>
-        <h1>
-          <img class="icon" src="@/img.background/pizza.png" />
-          CosmoPizza
-        </h1>
-      </header>
-    </div>
-    <div id="basketDv"><button id="basket">CosmoКорзина | 0р.</button></div>
-    <div id="panelDv">
-      <button id="panel">Пиццы</button>
-      <button id="panel">Роллы</button>
-      <button id="panel">Акции</button>
-      <button id="panel">Напитки</button>
-      <button id="panel">Наша команда</button>
-    </div>
-    <div>
-      <main class="main">
-        <section class="group_pizza">
-          <article class="card">
-            <div class="blockPizza">
-              <img
-                class="img-pizza"
-                src="@/img.background/pizzacart.png"
-                alt="cheesburger-pizza"
-              />
-              <p>Домашняя</p>
-              <ul class="specifications">
-                <li>
-                  <button class="activeKey">тонкая</button>
-                </li>
-                <li>
-                  <button class="key">традиционная</button>
-                </li>
-              </ul>
-            </div>
-            <ul class="size">
-              <li>
-                <button class="activeKey">26см.</button>
-              </li>
-              <li>
-                <button class="key">30см.</button>
-              </li>
-              <li>
-                <button class="key">40см.</button>
-              </li>
-            </ul>
-          </article>
-          <article class="price-add">
-            <p class="price">
-              от <i><b>359</b></i> &#8381;
-            </p>
-            <button class="add">
-              + Добавить
-              <span class="quantity"> 0 </span>
-            </button>
-          </article>
-        </section>
-        <section class="group_pizza">
-          <article class="card">
-            <div class="blockPizza">
-              <img
-                class="img-pizza"
-                src="@/img.background/pizzacart.png"
-                alt="cheesburger-pizza"
-              />
-              <p>Домашняя</p>
-              <ul class="specifications">
-                <li>
-                  <button class="activeKey">тонкая</button>
-                </li>
-                <li>
-                  <button class="key">традиционная</button>
-                </li>
-              </ul>
-            </div>
-            <ul class="size">
-              <li>
-                <button class="activeKey">26см.</button>
-              </li>
-              <li>
-                <button class="key">30см.</button>
-              </li>
-              <li>
-                <button class="key">40см.</button>
-              </li>
-            </ul>
-          </article>
-          <article class="price-add">
-            <p class="price">
-              от <i><b>359</b></i> &#8381;
-            </p>
-            <button class="add">
-              + Добавить
-              <span class="quantity"> 0 </span>
-            </button>
-          </article>
-        </section>
-        <section class="group_pizza">
-          <article class="card">
-            <div class="blockPizza">
-              <img
-                class="img-pizza"
-                src="@/img.background/pizzacart.png"
-                alt="cheesburger-pizza"
-              />
-              <p>Домашняя</p>
-              <ul class="specifications">
-                <li>
-                  <button class="activeKey">тонкая</button>
-                </li>
-                <li>
-                  <button class="key">традиционная</button>
-                </li>
-              </ul>
-            </div>
-            <ul class="size">
-              <li>
-                <button class="activeKey">26см.</button>
-              </li>
-              <li>
-                <button class="key">30см.</button>
-              </li>
-              <li>
-                <button class="key">40см.</button>
-              </li>
-            </ul>
-          </article>
-          <article class="price-add">
-            <p class="price">
-              от <i><b>359</b></i> &#8381;
-            </p>
-            <button class="add">
-              + Добавить
-              <span class="quantity"> 0 </span>
-            </button>
-          </article>
-        </section>
-        <section class="group_pizza">
-          <article class="card">
-            <div class="blockPizza">
-              <img
-                class="img-pizza"
-                src="@/img.background/pizzacart.png"
-                alt="cheesburger-pizza"
-              />
-              <p>Домашняя</p>
-              <ul class="specifications">
-                <li>
-                  <button class="activeKey">тонкая</button>
-                </li>
-                <li>
-                  <button class="key">традиционная</button>
-                </li>
-              </ul>
-            </div>
-            <ul class="size">
-              <li>
-                <button class="activeKey">26см.</button>
-              </li>
-              <li>
-                <button class="key">30см.</button>
-              </li>
-              <li>
-                <button class="key">40см.</button>
-              </li>
-            </ul>
-          </article>
-          <article class="price-add">
-            <p class="price">
-              от <i><b>359</b></i> &#8381;
-            </p>
-            <button class="add">
-              + Добавить
-              <span class="quantity"> 0 </span>
-            </button>
-          </article>
-        </section>
-      </main>
-
-      <main class="main">
-        <section class="group_pizza">
-          <article class="card">
-            <div class="blockPizza">
-              <img
-                class="img-pizza"
-                src="@/img.background/pizzacart.png"
-                alt="cheesburger-pizza"
-              />
-              <p>Домашняя</p>
-              <ul class="specifications">
-                <li>
-                  <button class="activeKey">тонкая</button>
-                </li>
-                <li>
-                  <button class="key">традиционная</button>
-                </li>
-              </ul>
-            </div>
-            <ul class="size">
-              <li>
-                <button class="activeKey">26см.</button>
-              </li>
-              <li>
-                <button class="key">30см.</button>
-              </li>
-              <li>
-                <button class="key">40см.</button>
-              </li>
-            </ul>
-          </article>
-          <article class="price-add">
-            <p class="price">
-              от <i><b>359</b></i> &#8381;
-            </p>
-            <button class="add">
-              + Добавить
-              <span class="quantity"> 0 </span>
-            </button>
-          </article>
-        </section>
-        <section class="group_pizza">
-          <article class="card">
-            <div class="blockPizza">
-              <img
-                class="img-pizza"
-                src="@/img.background/pizzacart.png"
-                alt="cheesburger-pizza"
-              />
-              <p>Домашняя</p>
-              <ul class="specifications">
-                <li>
-                  <button class="activeKey">тонкая</button>
-                </li>
-                <li>
-                  <button class="key">традиционная</button>
-                </li>
-              </ul>
-            </div>
-            <ul class="size">
-              <li>
-                <button class="activeKey">26см.</button>
-              </li>
-              <li>
-                <button class="key">30см.</button>
-              </li>
-              <li>
-                <button class="key">40см.</button>
-              </li>
-            </ul>
-          </article>
-          <article class="price-add">
-            <p class="price">
-              от <i><b>359</b></i> &#8381;
-            </p>
-            <button class="add">
-              + Добавить
-              <span class="quantity"> 0 </span>
-            </button>
-          </article>
-        </section>
-        <section class="group_pizza">
-          <article class="card">
-            <div class="blockPizza">
-              <img
-                class="img-pizza"
-                src="@/img.background/pizzacart.png"
-                alt="cheesburger-pizza"
-              />
-              <p>Домашняя</p>
-              <ul class="specifications">
-                <li>
-                  <button class="activeKey">тонкая</button>
-                </li>
-                <li>
-                  <button class="key">традиционная</button>
-                </li>
-              </ul>
-            </div>
-            <ul class="size">
-              <li>
-                <button class="activeKey">26см.</button>
-              </li>
-              <li>
-                <button class="key">30см.</button>
-              </li>
-              <li>
-                <button class="key">40см.</button>
-              </li>
-            </ul>
-          </article>
-          <article class="price-add">
-            <p class="price">
-              от <i><b>359</b></i> &#8381;
-            </p>
-            <button class="add">
-              + Добавить
-              <span class="quantity"> 0 </span>
-            </button>
-          </article>
-        </section>
-        <section class="group_pizza">
-          <article class="card">
-            <div class="blockPizza">
-              <img
-                class="img-pizza"
-                src="@/img.background/pizzacart.png"
-                alt="cheesburger-pizza"
-              />
-              <p>Домашняя</p>
-              <ul class="specifications">
-                <li>
-                  <button class="activeKey">тонкая</button>
-                </li>
-                <li>
-                  <button class="key">традиционная</button>
-                </li>
-              </ul>
-            </div>
-            <ul class="size">
-              <li>
-                <button class="activeKey">26см.</button>
-              </li>
-              <li>
-                <button class="key">30см.</button>
-              </li>
-              <li>
-                <button class="key">40см.</button>
-              </li>
-            </ul>
-          </article>
-          <article class="price-add">
-            <p class="price">
-              от <i><b>359</b></i> &#8381;
-            </p>
-            <button class="add">
-              + Добавить
-              <span class="quantity"> 0 </span>
-            </button>
-          </article>
-        </section>
-      </main>
-    </div>
-  </div>
+  <home-page />
 </template>
 
-<style lang="scss">
+<script setup>
+import HomePage from "@/views/home-page.vue";
+</script>
+
+<style>
 * {
   margin: 0;
   padding: 0;
 }
+
 .icon {
   width: 20px;
   height: 20px;
-}
-
-.tool {
-  background-image: url(img.background/cosmofont.png);
-  background-size: cover;
-  height: 100vh;
-  overflow-x: hidden;
-}
-
-.heading {
-  padding: 30px 40%;
-  text-align: center;
-  height: 35px;
-  background-image: url(img.background/cosmos.jpg);
-  background-size: cover;
-  background-position: 0% 50%;
-  margin: 10px 10px 10px 10px;
-  border: 5px;
-  border-radius: 15px;
 }
 
 h1 {
@@ -412,6 +54,7 @@ h1 {
   border-color: blue;
   border-radius: 5px;
 }
+
 .card {
   width: max-content;
 }
@@ -440,6 +83,7 @@ h1 {
   border: 3px;
   border-radius: 10px 10px 0px 0px;
 }
+
 .size {
   padding: 5px;
   background-color: #bebebe;
@@ -461,12 +105,14 @@ h1 {
   border: 10px;
   border-radius: 5px;
 }
+
 .key {
   align-items: center;
   padding: 0px 30px;
   display: flex;
   border: 3px;
 }
+
 .price-add {
   height: 30px;
   width: 50px;
@@ -476,6 +122,7 @@ h1 {
   white-space: nowrap;
   font-size: 25px;
 }
+
 .add {
   color: #fe5f1e;
   padding: 0px 15px;
@@ -491,15 +138,11 @@ h1 {
   background-color: #4e2087;
   color: white;
 }
+
 .quantity {
   padding: 0px 10px;
   color: white;
   background-color: #fe5f1e;
   border-radius: 10px;
-}
-
-.main {
-  justify-content: space-around;
-  display: flex;
 }
 </style>
